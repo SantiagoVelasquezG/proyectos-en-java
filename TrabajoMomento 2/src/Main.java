@@ -21,8 +21,8 @@ public class Main {
     }
 
     static class AgendaCitas {
-        private static Cita[] citas = new Cita[100]; // Arreglo para almacenar las citas
-        private static int contador = 0; // Contador de citas
+        private static Cita[] citas = new Cita[100]; 
+        private static int contador = 0; 
 
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
@@ -37,7 +37,7 @@ public class Main {
                 System.out.println("6. Salir");
                 System.out.print("Seleccione una opción: ");
                 opcion = scanner.nextInt();
-                scanner.nextLine(); // Limpiar el buffer
+                scanner.nextLine();
 
                 switch (opcion) {
                     case 1:

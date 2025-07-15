@@ -20,7 +20,7 @@ public class MainBulceFor {
 
             System.out.print("Elige una opción: ");
             contador = sc.nextInt();
-            sc.nextLine(); // limpiar el buffer por si después vas a usar nextLine()
+            sc.nextLine();
 
             switch (contador) {
                 case 1:
